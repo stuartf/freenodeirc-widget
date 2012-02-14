@@ -1,0 +1,23 @@
+{
+    "id":                 "freenodeirc",
+    "name":               "Freenode IRC",
+    "description":        "Freenode IRC",
+    "type":               "contrib",
+    "enabled":            true,
+    "hasSettings":        true,
+    "url":                "/devwidgets/freenodeirc/freenodeirc.html",
+    "i18n": {
+        "default": {
+            "bundle":        "/devwidgets/freenodeirc/bundles/default.properties",
+            "name":           "Freenode IRC",
+            "description":    "Freenode IRC"
+        }
+    },
+    "personalportal":     true,
+    "sakaidocs":          true,
+    "showinsakaigoodies": true,
+    "groupdashboard":     false,
+    "grouppages":         false,
+    "userdashboard":      false,
+    "userpages":          false
+}

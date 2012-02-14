@@ -1,0 +1,31 @@
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/devwidgets/freenodeirc/css/freenodeirc.css" />
+
+<div style="display:none">__MSG__IE_PLACEHOLDER__</div>
+
+<!-- WIDGET CONTENT CONTAINER -->
+<div class="freenodeirc_widget">
+    <!-- MAIN VIEW -->
+    <div id="freenodeirc_main" style="display:none;">
+        <iframe id="freenodeirc_chatframe" width="647" height="400"></iframe>
+    </div>
+    <!-- SETTINGS VIEW -->
+    <div id="freenodeirc_settings" style="display:none;">
+        <form id="freenodeirc_settings_form" action="#">
+            <p>__MSG__CHANNEL__:
+                <input id="freenodeirc_channel" />
+            </p>
+            <p>__MSG__PROMPT__:
+                <input id="freenodeirc_prompt" type="checkbox" />
+            </p>
+            <div class="fl-force-right">
+                <button type="button" class="s3d-button s3d-link-button" id="freenodeirc_cancel_settings">__MSG__CANCEL__</button>
+                <button type="submit" class="s3d-button s3d-overlay-button">__MSG__SAVE__</button>
+            </div>
+            <hr class="fl-hidden fl-push"/>
+        </form>
+    </div>
+</div>
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript" src="/devwidgets/freenodeirc/javascript/freenodeirc.js"></script>
